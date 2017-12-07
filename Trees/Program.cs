@@ -7,7 +7,7 @@ namespace Trees
     {
         private static void Main()
         {
-            var input = File.ReadAllLines("test.txt");
+            var input = File.ReadAllLines("input.txt");
             var test = new Input[input.Length];
             for (var i = 0; i < input.Length; i++)
                 test[i] = new Input(input[i]);
